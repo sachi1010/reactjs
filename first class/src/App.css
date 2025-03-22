@@ -1,0 +1,80 @@
+header{
+    background-image: url(bg.webp);
+    height: 450px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.book{
+    background-color: #f7f7f775;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   
+}
+.book button{
+    background-color: yellow;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+.book h6{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #000;
+}
+.book1{
+    background-color: #2423236c;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 340px;
+    left: 20%;
+    
+    }
+
+.book1 button{
+   background-color: transparent;
+    padding: 10px;
+    border: none;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   color: #f7f7f7;
+}
+.form{
+    background-color:#222121a4;
+    position: absolute;
+    top: 405px;
+    width: 60%;
+    height: 100px;
+    left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form input{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #f7f7f7;
+    width:200px;
+    height: 50px;
+    margin: 30px;
+}
+#current
+::placeholder{
+    color: green;
+}
