@@ -4,15 +4,15 @@
 
 import Navbar from './components/Navbar'
 import "./App.css"
+import { Content } from './components/Content'
 
 function App() {
  
 
   return (
     <>
-   <Navbar/>
-   
-   {/* <video src="v1.mp4" autoPlay loop muted width="100%" height="100%"></video> */}
+   <Navbar />
+
    <header>
         <div className="book">
           <h6>"Your Journey, Our Priority – Anytime, Anywhere!"</h6>
@@ -29,6 +29,7 @@ function App() {
                         <input type="search" placeholder='Search A Cab' id='search'/>
         </div>
    </header>
+   <Content/>
     </>
   
   )

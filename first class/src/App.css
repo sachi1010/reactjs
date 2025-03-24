@@ -9,7 +9,7 @@ header{
     align-items: center;
 }
 .book{
-    background-color: #f7f7f775;
+    background-color:rgba(128, 128, 128, 0.833);
     padding: 20px;
     border-radius: 10px;
     display: flex;
@@ -30,7 +30,10 @@ header{
 .book h6{
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #000;
+    background: linear-gradient(to right,yellow,rgb(249, 8, 8));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 1px;
 }
 .book1{
     background-color: #2423236c;
@@ -74,7 +77,14 @@ header{
     height: 50px;
     margin: 30px;
 }
-#current
-::placeholder{
+#current::placeholder{
     color: green;
+    letter-spacing: 1px;
+}
+#destination::placeholder{
+    color: red;
+    letter-spacing: 1px;
+}
+#destination{
+    width:210px;
 }
